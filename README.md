@@ -1,6 +1,6 @@
 # Repo Name: hibernate-practice
 
-==========================================================================
+
 This repo contains code examples regarding Below Hibernate topics.
 ==========================================================================
 - Solution-code-hibernate-hb-01-map-collections-set
@@ -11,7 +11,6 @@ This repo contains code examples regarding Below Hibernate topics.
 - Solution-code-hibernate-hb-map-componenets
 - Solution-code-hibernate-hb-map-enum
 
-==========================================================================
 Hibernate Mapping Strategies::
 ==========================================================================
 - Solution-code-hibernate-inheritance-joined-table
