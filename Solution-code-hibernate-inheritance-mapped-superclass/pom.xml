@@ -6,10 +6,10 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.dd</groupId>
-	<artifactId>Solution-code-hibernate-inheritance-table-per-class</artifactId>
+	<artifactId>Solution-code-hibernate-inheritance-mapped-super-class</artifactId>
 	<version>1.0</version>
 
-	<name>Solution-code-hibernate-hibernate-inheritance-table-per-class</name>
+	<name>Solution-code-hibernate-hibernate-inheritance-mapped-super-class</name>
 	<!-- FIXME change it to the project's website -->
 	<url>http://www.example.com</url>
 

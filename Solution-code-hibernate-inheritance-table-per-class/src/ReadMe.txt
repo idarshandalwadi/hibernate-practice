@@ -3,9 +3,8 @@ Hibernate Table per class Mapping Strategy:
 In this strategy sub class/table contains its own fields as well as all the fields of super class/table.
 As we have used Table per class mapping so we also need to change our Id generation strategy from Identity to TABLE.
 Bcz now we have multiple tables in which we need to add value for ID, now the issue is how could we get next possible value for ID column.
-Solution is - for that we need a table, which is by default create by Hibernate, table name will be "hibernate_sequence" and it will store the ID value.
-So when we insert new record to any table it will get current ID from the table and will assign next possible value to inserting record,
-this process done in a thread-safe manner.
+Solution is - for that we need a table, which will be created by Hibernate, table name will be "hibernate_sequence" and it will store the ID value.
+So when we insert new record to any table it will get current ID from the table and will assign next possible value to inserting record, this process done in a thread-safe manner.
 
 ======================
 Use case in Example:

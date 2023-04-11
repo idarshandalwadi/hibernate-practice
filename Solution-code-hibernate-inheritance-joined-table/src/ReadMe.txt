@@ -1,4 +1,4 @@
-Hibernate Table per class Mapping Strategy:
+Hibernate Joined Table Mapping Strategy:
 ===============================================
 This strategy basically working on the based on primary key and foriegn key.
 In this strategy super class which has a common fields that will be used by sub-classes.

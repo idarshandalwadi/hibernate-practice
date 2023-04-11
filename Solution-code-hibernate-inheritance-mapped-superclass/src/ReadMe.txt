@@ -1,9 +1,9 @@
-Hibernate Table per class Mapping Strategy:
+Hibernate Mapped Super Class Mapping Strategy:
 ===============================================
-This strategy only sub class is considered as a table, each table contains fields of own class and its super class.
+In this strategy, only sub-class is considered as a table, each table contains fields of own class and its super class.
 The supper class is not mapped/considered as separate table.
 Only subclasses have used @Entity so only subclass has tables in DB.
-No joins or inheritance exists in DB schema, it olny exists the Java code.
+No joins or inheritance exists in DB schema, it olny exists in the Java code.
 
 ======================
 Use case in Example:
@@ -15,7 +15,7 @@ There is Instructor(Sub) class having Instructor specific fields. (Id of parent 
 ====================
 Code changes:
 ====================
-Inside the User(Super) class: //Will not remove any othe annotations except @Entity, @Inheritance.
+Inside the User(Super) class: //Will not remove any other annotations except @Entity, @Inheritance.
 -----------------------------------
 @MappedSuperclass
 public class User implements Serializable {
@@ -25,8 +25,8 @@ public class User implements Serializable {
 }
 
 
-Inside the Student/Instructor class:
----------------------------------------
+Inside the Student/Instructor (sub)classes:
+--------------------------------------------
 @Entity
 public class Instructor extends User { .... }
 
